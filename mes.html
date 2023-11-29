@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مس ایران - ورود و ثبت نام</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Tahoma', sans-serif;
+            background-image: url('background-image.jpg'); /* آدرس تصویر پس‌زمینه را جایگزین 'background-image.jpg' کنید */
+            background-size: cover;
+            direction: rtl;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 0.5em;
+            text-align: right;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+        }
+
+        .white-box {
+            background-color: #fff;
+            padding: 2em;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            text-align: center;
+
+            margin: 10px;
+        }
+
+        .icon {
+            width: 50px; /* تنظیم عرض تصویر ایکون */
+            height: 50px; /* تنظیم ارتفاع تصویر ایکون */
+            margin-bottom: 1em;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+
+
+        /* افزودن یک کلاس به دکمه */
+.button-styled {
+    background-color: #ff9800; /* رنگ پس زمینه دکمه */
+    color: white; /* رنگ متن دکمه */
+    padding: 10px 20px; /* حاشیه دکمه */
+    font-size: 16px; /* اندازه متن دکمه */
+    border: none; /* حذف حاشیه گرد دکمه */
+    border-radius: 5px; /* شکل گرد دکمه */
+    cursor: pointer; /* تغییر شکل ماوس به نشان دهنده انجام عملیات کلیک */
+    font-family: 'vazir';
+}
+
+/* افزودن انیمیشن به دکمه هنگام هوور (موس روی دکمه) */
+.button-styled:hover {
+    background-color: #ff9800; /* رنگ پس زمینه تغییر یافته دکمه هنگام هوور */
+    font-family: 'vazir';
+}
+
+
+
+
+
+/* افزودن استایل به توضیحات */
+.description {
+    font-size: 18px; /* اندازه متن */
+    color: #555; /* رنگ متن */
+    margin-bottom: 15px; /* حاشیه پایین توضیحات */
+}
+
+/* استایل دکمه */
+.button-styled {
+    background-color: #ff9800; /* رنگ پس‌زمینه دکمه */
+    color: white; /* رنگ متن دکمه */
+    padding: 10px 20px; /* حاشیه دکمه */
+    font-size: 16px; /* اندازه متن دکمه */
+    border: none; /* حذف حاشیه گرد دکمه */
+    border-radius: 5px; /* شکل گرد دکمه */
+    cursor: pointer; /* تغییر شکل ماوس به نشان دهنده انجام عملیات کلیک */
+    transition: background-color 0.3s; /* اضافه کردن انیمیشن به تغییر رنگ پس‌زمینه دکمه */
+}
+
+/* افزودن انیمیشن به دکمه هنگام هوور (موس روی دکمه) */
+.button-styled:hover {
+    background-color:#ff9800  ; /* رنگ پس‌زمینه تغییر یافته دکمه هنگام هوور */
+}
+
+
+
+/* فونت ها */
+
+@font-face {
+    font-family: 'vazir';
+    src: url('font.eot');
+    src: url('font.eot?#iefix') format('embedded-opentype'),
+         url('font.woff2') format('woff2'),
+         url('font.woff') format('woff'),
+         url('font.ttf') format('truetype'),
+         url('font.svg#svgFontName') format('svg');
+}
+
+@font-face {
+    font-family: 'iranyekan';
+    src: url('font.eot');
+    src: url('font.eot?#iefix') format('embedded-opentype'),
+         url('font.woff2') format('woff2'),
+         url('font.woff') format('woff'),
+         url('font.ttf') format('truetype'),
+         url('font.svg#svgFontName') format('svg');
+}
+
+body {font-family: 'vazir', sans-serif; font-size: 16px;}
+h1, h2 { font-family: 'iranyekan', sans-serif; font-weight: 700;}
+p, span, div {font-family: 'vazir', sans-serif;line-height: 2;font-weight: 400;}
+
+/* فونت ها */
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1> مس ایران</h1>
+    </header>
+
+    <nav>
+        <a href="https://nicico.com/">صفحه اصلی</a>
+        <a href="https://nicico.com/">درباره ما</a>
+        <a href="https://nicico.com/">تماس با ما</a>
+    </nav>
+
+
+    <main>
+      
+
+
+
+            <div class="white-box">
+                <img src="your-image.png" alt="آیکون" class="icon"> <!-- آدرس تصویر ایکون را جایگزین 'icon.png' کنید -->
+                <h2>پورتال مس ایران</h2>
+
+                <button class="button-styled" onclick="window.location.href='index.html'">ورود و ثبت نام از طریق ایتا</button>
+             
+                <p class="description">جهت پاسخگویی به هرگونه سوال مرتبط با سامانه پورتال مس من با شماره داخلی 5883 تماس حاصل فرمایید.</p>
+              
+
+
+
+
+            </div>
+        
+    </main>
+
+    <footer>
+        &copy; 2023 مس ایران - تمامی حقوق محفوظ است.
+    </footer>
+</body>
+</html>
